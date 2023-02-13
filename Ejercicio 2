@@ -1,0 +1,39 @@
+#include <iostream> 
+  
+ using namespace std; 
+  
+ int main() { 
+  
+   float base = 0; 
+  
+   float altura = 0; 
+  
+    
+  
+   cout << "Ingrese la base del rectángulo: "; 
+  
+   cin >> base; 
+  
+    
+  
+   cout << "Ingrese la altura del rectángulo: "; 
+  
+   cin >> altura; 
+  
+    
+  
+   float perimetro = 2 * (base + altura); 
+  
+   float area = base * altura; 
+  
+    
+  
+   cout << "El perímetro del rectángulo es: " << perimetro << endl; 
+  
+   cout << "El área del rectángulo es: " << area <<endl; 
+  
+    
+  
+   return 0; 
+  
+ }
