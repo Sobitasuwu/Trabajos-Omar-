@@ -1,0 +1,39 @@
+#include <iostream> 
+  
+ #include <string> 
+  
+ using namespace std; 
+  
+ int main() { 
+  
+   string nombre, apellido; 
+  
+    
+  
+   cout << "Ingrese su nombre: "; 
+  
+   cin >> nombre; 
+  
+    
+  
+   cout << "Ingrese su apellido: "; 
+  
+   cin >> apellido; 
+  
+    
+  
+   char inicialNombre = nombre[0]; 
+  
+   char inicialApellido = apellido[0]; 
+  
+    
+  
+   cout << "Su nombre es: " << inicialNombre << "." << endl; 
+  
+   cout << "Su apellido es: " << inicialApellido << "." << endl; 
+  
+    
+  
+   return 0; 
+  
+ }
